@@ -13,6 +13,7 @@
 		42539879217910CD00CB1797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42539877217910CD00CB1797 /* Main.storyboard */; };
 		4253987B217910D000CB1797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4253987A217910D000CB1797 /* Assets.xcassets */; };
 		4253987E217910D000CB1797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4253987C217910D000CB1797 /* LaunchScreen.storyboard */; };
+		425398862179123300CB1797 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425398852179123300CB1797 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4253987A217910D000CB1797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4253987D217910D000CB1797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4253987F217910D000CB1797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425398852179123300CB1797 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = ../../ExactPrice/ExactPrice/RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		42539870217910CD00CB1797 /* CUBES */ = {
 			isa = PBXGroup;
 			children = (
+				425398852179123300CB1797 /* RoundButton.swift */,
 				42539871217910CD00CB1797 /* AppDelegate.swift */,
 				42539873217910CD00CB1797 /* art.scnassets */,
 				42539875217910CD00CB1797 /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425398862179123300CB1797 /* RoundButton.swift in Sources */,
 				42539876217910CD00CB1797 /* ViewController.swift in Sources */,
 				42539872217910CD00CB1797 /* AppDelegate.swift in Sources */,
 			);
